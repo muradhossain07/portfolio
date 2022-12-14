@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Outfit:wght@500&family=Poppins:wght@500&family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:wght@500&family=Outfit:wght@500&family=Poppins:wght@500&family=Shippori+Antique+B1&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /*font-family: Josefin Sans;*/
+}
+span{
+    color: #ff4200;
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    background: url('img/c2.jpg');
+    display: block;
+}
+.head .logo{
+    height: 45px;
+    width: 50px;
+}
+nav{
+    display: flex;
+    width: 82%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+nav ul li a:hover {
+   color: #FF4200;
+
+}
+.detel{
+ margin-left: 8%;
+ margin-top: 16%;
+ display: inline-block;
+}
+.detel h1{
+    font-size: 80px;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+.detel p{
+    color: #DCDCDC;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.detel i{
+    color: #ff4200;
+}
+hr {
+  border:none;
+  border-top:4px solid  #FF4200;/* or bottom */
+  width:17em;
+  margin-bottom: 10px;
+  }
+.detel a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    
+}
+
+.icons{
+    float: right;
+    margin: 14% 7%;
+}
+.icons ul li{
+    list-style:none;  
+    margin: 16px 0px;  
+}
+.icons ul li i{
+    color: black; 
+    font-size: 25px;
+    text-shadow:1px 2px 1px #fff;
+
+}
+.icons ul li i:hover{
+    color: #fff;
+    transition: 0.2s;
+    text-shadow:1px 2px 1px black;
+}
+
+
+
+/*------------about scetion--------*/
+.about{
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+.title{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom:50px;
+
+}
+.title h1{ 
+   font-size: 50px;
+   color: #333333;
+   font-family: 'Poppins', sans-serif;
+   margin-bottom:0;
+
+}
+.title p{
+    margin-top: 0; 
+    color: #333333;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+/*.title hr {
+  border:none;
+  border-top:5px solid  #FF4200; or bottom 
+  width:26em;
+  margin: 10px auto;
+
+
+  }*/
+  .text{
+    width: 50%;
+    float: left;
+  }
+   .text .detls{
+    padding: 20px 150px;
+  }
+.detls p{
+   text-align: center;
+  }
+.expinfo{
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom:20px ;
+}
+.expinfo h1{
+    color: #ff4200;
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+ }
+.btn{
+    background: #333333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0px 300px;
+}
+.button a:hover{
+    background: #ff4200;
+    border: 2px solid #333333;
+ }
+
+ /*------------photo--------*/
+ .pic{
+    width: 50%;
+    float: left;
+ }
+  .card{
+    height: 400px;
+    margin-left: 120px;
+    width: 400px;
+    background: cover;
+    border-radius: 100%;
+    border: 10px solid #ff4200;
+    box-shadow: 1px 5px 10px #888888;
+ }
+  .card img{
+    height:400px;
+    width: 400px;
+    border-radius: 100%;
+ }
+ /*------------about section end----------*/
+
+
+ /*------------ skill section ----------*/
+
+ #skill{
+    width: 100%;
+    height: 100vh;
+    display:block;
+}
+.skill{
+    width: 100%;
+    height: 100%;
+    
+}
+.skill .social{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+.skill .chart{
+    width: 50%;
+    height: 100%;
+    float: left;  
+}
+.lang{
+    margin:6% 16%;
+}
+.lang img{
+    height: 100px;
+    width: 100px;
+    margin: 35px 32px;
+}
+/*---------------
+
+skill bar
+
+-----------*/
+.chart{
+    margin-top: 5%;
+}
+.skill-bars{
+  padding: 25px 30px;
+  width: 600px;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+.skill-bars .bar{
+  margin: 20px 0;
+}
+.skill-bars .bar:first-child{
+  margin-top: 0px;
+}
+.skill-bars .bar .info{
+  margin-bottom: 5px;
+}
+.skill-bars .bar .info span{
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100%{
+    opacity: 1;
+  }
+}
+.skill-bars .bar .progress-line{
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              0 1px rgba(255,255,255,0.8);
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #6665ee;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line.html span{
+  width: 90%;
+}
+.bar .progress-line.css span{
+  width: 80%;
+}
+.bar .progress-line.jquery span{
+  width: 85%;
+}
+.bar .progress-line.python span{
+  width: 50%;
+}
+.bar .progress-line.mysql span{
+  width: 75%;
+}
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+.progress-line.html span::after{
+  content: "90%";
+}
+.progress-line.css span::after{
+  content: "60%";
+}
+.progress-line.jquery span::after{
+  content: "85%";
+}
+.progress-line.python span::after{
+  content: "50%";
+}
+.progress-line.mysql span::after{
+  content: "75%";
+}
+/*------------skill section end------------*/
+
+.services{
+    height:120vh;
+    width:100%;
+    background: #333333;
+    display: block;
+}
+.services h1{
+    font-size: 50px;
+    color: #fff;
+    padding: 5% 0;
+    text-align: center;
+}
+.serbox{
+    margin:0 10%;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    background: #FF3401;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 1% 6.1%;
+}
+.box:hover{
+    background: #fff;
+    height: 250px;
+    width: 250px;
+    transition: 0.5s;
+    border-radius: 100%;
+}
+.box h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+   /* margin-top: 140px;*/
+}
+.box p{
+    color: #fff;
+    background: black;
+    border-radius: 5px;
+   
+}
+.box i{
+    font-size: 80px;
+    margin-top: 50px;
+}
+/*---------contact section-----------*/
+
+.contact{
+    height:100vh;
+    width:100%;
+    display: block;
+}
+.contact h1{
+    font-size: 50px;
+    color: #333333;
+    padding: 5% 0;
+    text-align: center;
+}
+.cinfo{
+    padding: 0 100px;
+    width: 50%;
+    float: left;
+}
+.cinfo p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+h6{
+    font-size: 15px;
+} 
+.cinfo ul li {
+    list-style: none;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 600;
+
+} 
+.cinfo ul li i {
+    font-size: 30px;
+    color: #ff4200;
+}
+.cinfo ul li i:hover {
+    color: black;
+}
+.cinfo ul li a{
+    margin-left: 10px;
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+} 
+.form{
+   padding: 0 100px;
+    width: 50%;
+    float: left
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #333333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #ff4200;
+}
+/*-----------footer---------*/
+footer {
+    background: #ff4200;
+     display: flex;
+     text-align: center;
+
+}
+footer a{
+    color:black;
+}
+footer p{
+    margin: 0 6%;
+}
+
+
+/*-----------responsive section------------*/
+@media screen and (max-width: 400px) {
+
+}
